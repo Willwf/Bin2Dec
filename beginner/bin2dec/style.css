@@ -16,3 +16,12 @@ input, button{
   padding: 1em;
   font-size: 1em;
 }
+
+p {
+  font-size: 1.5em;
+}
+
+span {
+  font: bold;
+  font-size: 1.5em;
+}
