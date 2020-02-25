@@ -9,6 +9,9 @@ Um projeto para iniciantes melhorarem suas habilidades e treinarem certos concei
 
 No campo de digitação é possível digitar mais do que 8 números e há alguns erros como permitir a digitação e conversão de certos números diferentes de 0 e 1. Mas não é possível converter outros caracteres além de números. O usuário recebe um alerta em forma de pop-up se tentar.
 
+Print:
+![](/print.jpg)
+
 **Tier:** 1-Beginner
 
 Binary is the number system all digital computers are based on.
