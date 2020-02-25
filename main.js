@@ -2,7 +2,7 @@ const binaryNumber = document.querySelector('.input');
 const btn = document.querySelector('.btn');
 const decimalNumber = document.querySelector('.decimal-number');
 
-btn.addEventListener('click', function (event) {
+function convertValue() {
   decimalNumber.innerHTML = '0';
   const inputValue = parseInt(binaryNumber.value, 2);
   if (!inputValue && inputValue !== Number) {
@@ -11,4 +11,9 @@ btn.addEventListener('click', function (event) {
   } else {
     decimalNumber.innerHTML = inputValue;
   }
-})
+}
+
+btn.addEventListener('click', convertValue);
+window.addEventListener('keypress', (e) => {
+  if (e.keyCode === 13) return convertValue();
+});
